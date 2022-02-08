@@ -3,3 +3,7 @@ function pesquisarFunc(){
     console.log(pesquisa)
 alert(pesquisa)
 }
+
+function goTop(){
+    $(a).scrollTop()
+}
