@@ -42,3 +42,8 @@ height: 200px;
 height: 60px;
 
   }
+
+#extras p{
+  display: inline-block;
+  justify-items: space-between;
+}
