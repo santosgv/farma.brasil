@@ -1,7 +1,15 @@
 :root {
     --main-bg-primary: rgb(31, 53, 151);
-    --main-bg-segundo:rgb(245, 240, 240);
+    --main-bg-segundo:#F0F8FF;
     --main-bg-terceiro:rgb(138, 14, 14);
+  }
+
+  #navbarNav li a{
+    color: var(--main-bg-primary);
+  }
+
+  #navbarNav li :hover{
+    background-color:var(--main-bg-segundo) ;
   }
 
 #menu h2{
@@ -45,7 +53,17 @@ height: 60px;
 
   }
 
+  #localizacao-itens h5{
+    color:var(--main-bg-primary);
+  }
+
+
 #extras p{
   display: inline-block;
   justify-items: space-between;
+  color:var(--main-bg-segundo);
+}
+
+#contatos-sociais-itens h5 {
+  color:var(--main-bg-primary);
 }
