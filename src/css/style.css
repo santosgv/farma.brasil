@@ -4,6 +4,14 @@
     --main-bg-terceiro:rgb(138, 14, 14);
   }
 
+
+#menu h2{
+	color: var(--main-bg-primary);
+}
+
+.text-uppercase{
+	color: var(--main-bg-primary);
+}
   
 .row{
   justify-content: center;
